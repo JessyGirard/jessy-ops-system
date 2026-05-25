@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessy Ops System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="title">JESSY OPS SYSTEM</div>
+    <div class="language-switcher">
+      <button type="button" class="lang-btn">EN</button>
+      <button type="button" class="lang-btn">FR</button>
+      <button type="button" class="lang-btn">RU</button>
+    </div>
+  </div>
+
+  <div class="dashboard-grid">
+    <!-- BOX 1: DAILY DASHBOARD -->
+    <div class="box daily-box">
+      <div class="box-body">
+        <div class="box-title">DAILY DASHBOARD</div>
+        <div class="status">● WEATHER SERVICE ONLINE</div>
+        <div class="daily-layout">
+          <div class="daily-meta">
+            08:44 AM<br>
+            Calgary, Alberta<br>
+            14°C
+          </div>
+          <div class="quote-card">
+            <p class="quote">Small systems become big systems.</p>
+          </div>
+        </div>
+        <div class="mini-log">Weather API synced successfully.</div>
+      </div>
+
+      <div class="actions">
+        <div class="action-wrap" tabindex="0">
+          <div class="tools-panel">
+            <div class="panel-label">Tools Involved</div>
+            <div class="panel-text">
+              HTML<br>
+              CSS<br>
+              JavaScript<br>
+              FastAPI<br>
+              Docker<br>
+              nginx
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show tools">Tools</span>
+        </div>
+
+        <div class="action-wrap" tabindex="0">
+          <div class="operation-menu">
+            <div class="menu-option">
+              Operational Flow
+              <div class="detail-panel">
+                <div class="panel-label">Operational Flow</div>
+                <div class="panel-flow">
+                  Frontend requests backend service.<br>
+                  FastAPI requests weather API.<br>
+                  JSON response validated.<br>
+                  Data cached and rendered.<br>
+                  Dashboard updated automatically.
+                </div>
+              </div>
+            </div>
+            <div class="menu-option">
+              Troubleshooting
+              <div class="detail-panel">
+                <div class="panel-label">Troubleshooting</div>
+                <div class="panel-text">
+                  Check API token.<br>
+                  Check backend container.<br>
+                  Check nginx routing.<br>
+                  Inspect logs in /var/log.<br>
+                  Run docker logs.
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show operation">Operation</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOX 2: DEVOPS MAP -->
+    <div class="box">
+      <div class="box-body">
+        <div class="box-title">DEVOPS MAP</div>
+        <div class="status">● INFRASTRUCTURE HEALTHY</div>
+        <div class="content content--grow">
+          Container orchestration map.<br>
+          Deployment visibility active.
+        </div>
+        <div class="mini-log">Infrastructure topology initialized.</div>
+      </div>
+
+      <div class="actions">
+        <div class="action-wrap" tabindex="0">
+          <div class="tools-panel">
+            <div class="panel-label">Tools Involved</div>
+            <div class="panel-text">
+              Docker<br>
+              nginx<br>
+              GitHub Actions<br>
+              FastAPI
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show tools">Tools</span>
+        </div>
+
+        <div class="action-wrap" tabindex="0">
+          <div class="operation-menu">
+            <div class="menu-option">
+              Operational Flow
+              <div class="detail-panel">
+                <div class="panel-label">Operational Flow</div>
+                <div class="panel-flow">
+                  Git push triggers deployment pipeline.<br>
+                  Container rebuilt.<br>
+                  nginx reloads routing.<br>
+                  Health checks validated.
+                </div>
+              </div>
+            </div>
+            <div class="menu-option">
+              Troubleshooting
+              <div class="detail-panel">
+                <div class="panel-label">Troubleshooting</div>
+                <div class="panel-text">
+                  Check CI runner status.<br>
+                  Confirm image build completed.<br>
+                  Verify nginx upstream targets.<br>
+                  Review deployment health checks.
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show operation">Operation</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOX 3: TREND COLLECTOR -->
+    <div class="box">
+      <div class="box-body">
+        <div class="box-title">TREND COLLECTOR</div>
+        <div class="status">● DATA FEED STANDBY</div>
+        <div class="content content--grow">
+          External trend aggregation.<br>
+          Daily processing scheduled.
+        </div>
+        <div class="mini-log">Waiting for external sources.</div>
+      </div>
+
+      <div class="actions">
+        <div class="action-wrap" tabindex="0">
+          <div class="tools-panel">
+            <div class="panel-label">Tools Involved</div>
+            <div class="panel-text">
+              Python<br>
+              APIs<br>
+              Scheduler<br>
+              JSON processing
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show tools">Tools</span>
+        </div>
+
+        <div class="action-wrap" tabindex="0">
+          <div class="operation-menu">
+            <div class="menu-option">
+              Operational Flow
+              <div class="detail-panel">
+                <div class="panel-label">Operational Flow</div>
+                <div class="panel-flow">
+                  Scheduler runs daily.<br>
+                  APIs queried.<br>
+                  Results normalized.<br>
+                  Summary generated.<br>
+                  Frontend updated.
+                </div>
+              </div>
+            </div>
+            <div class="menu-option">
+              Troubleshooting
+              <div class="detail-panel">
+                <div class="panel-label">Troubleshooting</div>
+                <div class="panel-text">
+                  Confirm API quota remains available.<br>
+                  Inspect scheduler execution window.<br>
+                  Re-run JSON normalization.<br>
+                  Review failed source responses.
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show operation">Operation</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOX 4: TROUBLESHOOTING -->
+    <div class="box">
+      <div class="box-body">
+        <div class="box-title">TROUBLESHOOTING</div>
+        <div class="status">● NO ACTIVE INCIDENTS</div>
+        <div class="content content--grow">
+          Runtime diagnostics ready.<br>
+          Observability active.
+        </div>
+        <div class="mini-log">journalctl monitoring active.</div>
+      </div>
+
+      <div class="actions">
+        <div class="action-wrap" tabindex="0">
+          <div class="tools-panel">
+            <div class="panel-label">Tools Involved</div>
+            <div class="panel-text">
+              journalctl<br>
+              docker logs<br>
+              systemctl<br>
+              /var/log
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show tools">Tools</span>
+        </div>
+
+        <div class="action-wrap" tabindex="0">
+          <div class="operation-menu">
+            <div class="menu-option">
+              Operational Flow
+              <div class="detail-panel">
+                <div class="panel-label">Operational Flow</div>
+                <div class="panel-flow">
+                  Service health checked.<br>
+                  Runtime logs scanned.<br>
+                  Failed services identified.<br>
+                  Recovery workflow prepared.
+                </div>
+              </div>
+            </div>
+            <div class="menu-option">
+              Troubleshooting
+              <div class="detail-panel">
+                <div class="panel-label">Troubleshooting</div>
+                <div class="panel-text">
+                  Confirm service state with systemctl.<br>
+                  Inspect runtime logs for recent failures.<br>
+                  Check docker logs for container errors.<br>
+                  Review /var/log for recovery steps.
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show operation">Operation</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOX 5: WEEKLY BLOG / VLOG -->
+    <div class="box">
+      <div class="box-body">
+        <div class="box-title">WEEKLY BLOG / VLOG</div>
+        <div class="status">● CONTENT PIPELINE READY</div>
+        <div class="content content--grow">
+          Static publishing system.<br>
+          Video integration prepared.
+        </div>
+        <div class="mini-log">Markdown rendering initialized.</div>
+      </div>
+
+      <div class="actions">
+        <div class="action-wrap" tabindex="0">
+          <div class="tools-panel">
+            <div class="panel-label">Tools Involved</div>
+            <div class="panel-text">
+              Markdown<br>
+              GitHub<br>
+              Static files<br>
+              nginx
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show tools">Tools</span>
+        </div>
+
+        <div class="action-wrap" tabindex="0">
+          <div class="operation-menu">
+            <div class="menu-option">
+              Operational Flow
+              <div class="detail-panel">
+                <div class="panel-label">Operational Flow</div>
+                <div class="panel-flow">
+                  Blog content committed.<br>
+                  CI/CD pipeline triggered.<br>
+                  Static assets rebuilt.<br>
+                  nginx deploys updates.
+                </div>
+              </div>
+            </div>
+            <div class="menu-option">
+              Troubleshooting
+              <div class="detail-panel">
+                <div class="panel-label">Troubleshooting</div>
+                <div class="panel-text">
+                  Check markdown build logs.<br>
+                  Verify static asset paths.<br>
+                  Confirm GitHub webhook delivery.<br>
+                  Review nginx cache invalidation.
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show operation">Operation</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOX 6: VIDEO PANEL -->
+    <div class="box">
+      <div class="box-body">
+        <div class="box-title">VIDEO PANEL</div>
+        <div class="status">● MEDIA MODULE STANDBY</div>
+        <div class="content content--grow">
+          YouTube embedding prepared.<br>
+          Playback pipeline inactive.
+        </div>
+        <div class="mini-log">Awaiting media configuration.</div>
+      </div>
+
+      <div class="actions">
+        <div class="action-wrap" tabindex="0">
+          <div class="tools-panel">
+            <div class="panel-label">Tools Involved</div>
+            <div class="panel-text">
+              YouTube API<br>
+              HTML embed<br>
+              Scheduler<br>
+              JSON fetch
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show tools">Tools</span>
+        </div>
+
+        <div class="action-wrap" tabindex="0">
+          <div class="operation-menu">
+            <div class="menu-option">
+              Operational Flow
+              <div class="detail-panel">
+                <div class="panel-label">Operational Flow</div>
+                <div class="panel-flow">
+                  Latest video retrieved.<br>
+                  Metadata parsed.<br>
+                  Embed generated.<br>
+                  Frontend refreshed.
+                </div>
+              </div>
+            </div>
+            <div class="menu-option">
+              Troubleshooting
+              <div class="detail-panel">
+                <div class="panel-label">Troubleshooting</div>
+                <div class="panel-text">
+                  Confirm YouTube API key.<br>
+                  Verify embed video ID.<br>
+                  Check scheduler refresh timing.<br>
+                  Inspect JSON payload format.
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="action-btn" role="button" aria-label="Show operation">Operation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
